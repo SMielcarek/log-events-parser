@@ -1,7 +1,7 @@
 # Log Events Parser
 This application is reading the log file with log entries in JSON format and creating server events based on that.
 Log entries have mandatory fields **id**, **state**, **timestamps** and optional ones **type** and **host**. Log entries
-with the same **id** and **state** are treated as duplicate. Events sreated from log entries are stored in HyperSQL
+with the same **id** and **state** are treated as duplicate. Events created from log entries are stored in HyperSQL
 (hsqldb) database. 
 
 ## Compile project
