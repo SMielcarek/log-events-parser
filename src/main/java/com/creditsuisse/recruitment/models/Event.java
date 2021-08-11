@@ -8,10 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Data
-
-@Accessors(fluent = true, chain = true)
-
 @Entity
+@Accessors(fluent = true, chain = true)
 public class Event {
 
     @Id
